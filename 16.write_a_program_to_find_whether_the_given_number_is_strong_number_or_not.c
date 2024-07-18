@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(){
+void main(){
    int n,i,fact,rem;
    scanf("%d",&n);
    int sum = 0;
@@ -18,5 +18,4 @@ int main(){
       printf("%d is a strong number",temp);
    else
       printf("%d is not a strong number",temp);
-   return 0;
 }
